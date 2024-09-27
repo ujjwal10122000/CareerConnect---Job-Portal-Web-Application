@@ -1,0 +1,50 @@
+/* ApplicationStatus.css */
+
+.applications-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .applications-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .applications-table th,
+  .applications-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .applications-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .applications-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .applications-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .applications-table td {
+    font-size: 14px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+  

@@ -1,0 +1,51 @@
+.job-seeker-profile-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-left {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-actions .btn {
+    margin-bottom: 10px;
+}
+
+.profile-right {
+    flex: 2;
+}
+
+.profile-right h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.profile-right p {
+    margin-bottom: 10px;
+}
+
+.profile-right .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
